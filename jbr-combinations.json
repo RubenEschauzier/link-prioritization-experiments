@@ -1,0 +1,12 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/jbr/^5.0.0/components/context.jsonld"
+  ],
+  "@id": "urn:jbr:link-prioritization-timings-combinations",
+  "@type": "FullFactorialCombinationProvider",
+  "commonGenerated": true,
+  "factors": {
+    "type": ["breadth-first", "depth-first", "random", "indegree", "pagerank", "rcc-1", "rcc-2","rel-1", "rel-2", "is", "isdcr",
+    "is-rcc-1", "is-rcc-2", "is-rel-1", "is-rel-2" ]
+  }
+}
