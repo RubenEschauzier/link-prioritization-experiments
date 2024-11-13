@@ -24,11 +24,12 @@
     "@type": "StaticDockerResourceConstraints",
     "cpu_percentage": 100
   },
-  "queryRunnerReplication": 3,
-  "queryRunnerWarmupRounds": 1,
+  "queryRunnerReplication": 5,
+  "queryRunnerWarmupRounds": 0,
   "queryRunnerRequestDelay": 0,
   "queryRunnerEndpointAvailabilityCheckTimeout": 1000,
   "queryRunnerUrlParams": {},
+  "queryTimeoutFallback": 240000,
   "hookSparqlEndpoint": {
     "@id": "urn:jbr:link-prioritization-timings:combination_0:hookSparqlEndpoint",
     "@type": "HookSparqlEndpointComunica",
@@ -37,7 +38,7 @@
       "@type": "StaticDockerResourceConstraints",
       "cpu_percentage": 100
     },
-    "configClient": "input/config-client.json",
+    "configClient": "input/config-client/config-solid-breadth-first.json",
     "contextClient": "input/context-client.json",
     "additionalBinds": [],
     "clientPort": 3001,
