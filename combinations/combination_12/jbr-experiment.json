@@ -18,7 +18,7 @@
   "dockerfileServer": "input/dockerfiles/Dockerfile-server",
   "endpointUrl": "http://localhost:3001/sparql",
   "serverPort": 3000,
-  "serverLogLevel": "warn",
+  "serverLogLevel": "error",
   "serverBaseUrl": "http://solidbench-server:3000/",
   "serverResourceConstraints": {
     "@type": "StaticDockerResourceConstraints",
@@ -42,7 +42,7 @@
     "contextClient": "input/context-client.json",
     "additionalBinds": [],
     "clientPort": 3001,
-    "clientLogLevel": "warn",
+    "clientLogLevel": "error",
     "queryTimeout": 300,
     "maxMemory": 8192
   }
