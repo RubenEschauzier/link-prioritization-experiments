@@ -22,6 +22,12 @@ Generate the dataset and queries:
 $ npm run jbr -- prepare
 ```
 
+Generate the output directory structure used by Comunica to write r3-metric tracking output.
+
+```bash
+$ npm run prepare-output-directory
+```
+
 Run the experiment locally:
 
 ```bash
