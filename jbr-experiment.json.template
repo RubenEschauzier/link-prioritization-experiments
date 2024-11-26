@@ -18,7 +18,7 @@
   "dockerfileServer": "input/dockerfiles/Dockerfile-server",
   "endpointUrl": "http://localhost:3001/sparql",
   "serverPort": 3000,
-  "serverLogLevel": "error",
+  "serverLogLevel": "warn",
   "serverBaseUrl": "http://solidbench-server:3000/",
   "serverResourceConstraints": {
     "@type": "StaticDockerResourceConstraints",
@@ -29,7 +29,7 @@
   "queryRunnerRequestDelay": 0,
   "queryRunnerEndpointAvailabilityCheckTimeout": 1000,
   "queryRunnerUrlParams": { "context": "{ \"lenient\": true }" },
-  "queryTimeoutFallback": 240000,
+  "queryTimeoutFallback": 180000,
   "hookSparqlEndpoint": {
     "@id": "urn:jbr:link-prioritization-timings:hookSparqlEndpoint",
     "@type": "HookSparqlEndpointComunica",
@@ -42,8 +42,8 @@
     "contextClient": "input/context-client.json",
     "additionalBinds": [],
     "clientPort": 3001,
-    "clientLogLevel": "error",
-    "queryTimeout": 300,
+    "clientLogLevel": "warn",
+    "queryTimeout": 180,
     "maxMemory": 8192
   }
 }
