@@ -25,6 +25,7 @@ $ npm run jbr -- prepare
 Generate the output directory structure used by Comunica to write r3-metric tracking output.
 
 ```bash
+$ mkdir output
 $ npm run prepare-output-directory
 ```
 
