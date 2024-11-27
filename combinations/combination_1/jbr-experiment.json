@@ -26,7 +26,7 @@
   },
   "queryRunnerReplication": 5,
   "queryRunnerWarmupRounds": 0,
-  "queryRunnerRequestDelay": 0,
+  "queryRunnerRequestDelay": 2,
   "queryRunnerEndpointAvailabilityCheckTimeout": 1000,
   "queryRunnerUrlParams": { "context": "{ \"lenient\": true }" },
   "queryTimeoutFallback": 240000,
@@ -38,12 +38,12 @@
       "@type": "StaticDockerResourceConstraints",
       "cpu_percentage": 100
     },
-    "configClient": "input/config-client/config-solid-depth-first.json",
+    "configClient": "input/config-client/config-solid-depth-first-r3-metric.json",
     "contextClient": "input/context-client.json",
-    "additionalBinds": [],
+    "additionalBinds": ["/output:/tmp/r3-metric-output"],
     "clientPort": 3001,
     "clientLogLevel": "error",
-    "queryTimeout": 300,
+    "queryTimeout": 180,
     "maxMemory": 8192
   }
 }

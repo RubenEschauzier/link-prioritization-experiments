@@ -3,10 +3,23 @@
     "https://linkedsoftwaredependencies.org/bundles/npm/jbr/^5.0.0/components/context.jsonld"
   ],
   "@id": "urn:jbr:link-prioritization-timings-combinations",
-  "@type": "FullFactorialCombinationProvider",
+  "@type": "FractionalCombinationProvider",
   "commonGenerated": true,
-  "factors": {
-    "type": ["breadth-first", "depth-first", "random", "indegree", "pagerank", "rcc-1", "rcc-2","rel-1", "rel-2", "is", "isdcr",
-    "is-rcc-1", "is-rcc-2", "is-rel-1", "is-rel-2" ]
-  }
+  "combinations": [
+    {"type": "breadth-first", "combination": "combination_0"},
+    {"type": "depth-first", "combination": "combination_1"},
+    {"type": "random", "combination": "combination_2"},
+    {"type": "indegree", "combination": "combination_3"},
+    {"type": "pagerank", "combination": "combination_4"},
+    {"type": "rcc-1", "combination": "combination_5"},
+    {"type": "rcc-2", "combination": "combination_6"},
+    {"type": "rel-1", "combination": "combination_7"},
+    {"type": "rel-2", "combination": "combination_8"},
+    {"type": "is", "combination": "combination_9"},
+    {"type": "isdcr", "combination": "combination_10"},
+    {"type": "is-rcc-1", "combination": "combination_11"},
+    {"type": "is-rcc-2", "combination": "combination_12"},
+    {"type": "is-rel-1", "combination": "combination_13"},
+    {"type": "is-rel-2", "combination": "combination_14"}
+  ]
 }
