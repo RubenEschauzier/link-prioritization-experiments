@@ -1,6 +1,7 @@
 # My Experiment
 
 This experiment was created with [jbr](https://github.com/rubensworks/jbr.js).
+(Sometimes you might need to add `127.0.0.1 solidbench-server` to your /etc/hosts file if the css server is not seen as up)
 
 ## Requirements
 
