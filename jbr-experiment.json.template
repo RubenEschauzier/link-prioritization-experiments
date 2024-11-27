@@ -24,7 +24,7 @@
     "@type": "StaticDockerResourceConstraints",
     "cpu_percentage": 100
   },
-  "queryRunnerReplication": 5,
+  "queryRunnerReplication": 10,
   "queryRunnerWarmupRounds": 0,
   "queryRunnerRequestDelay": 2,
   "queryRunnerEndpointAvailabilityCheckTimeout": 1000,
@@ -42,7 +42,7 @@
     "contextClient": "input/context-client.json",
     "additionalBinds": [],
     "clientPort": 3001,
-    "clientLogLevel": "warn",
+    "clientLogLevel": "error",
     "queryTimeout": 180,
     "maxMemory": 8192
   }
