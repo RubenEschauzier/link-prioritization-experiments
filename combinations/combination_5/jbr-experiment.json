@@ -27,7 +27,7 @@
   "queryRunnerReplication": 5,
   "queryRunnerWarmupRounds": 0,
   "queryRunnerRequestDelay": 1,
-  "queryRunnerEndpointAvailabilityCheckTimeout": 1000,
+  "queryRunnerEndpointAvailabilityCheckTimeout": 200000,
   "queryRunnerUrlParams": { "context": "{ \"lenient\": true }" },
   "queryTimeoutFallback": 200000,
   "hookSparqlEndpoint": {
@@ -42,7 +42,7 @@
     "contextClient": "input/context-client.json",
     "additionalBinds": [],
     "clientPort": 3001,
-    "clientLogLevel": "warn",
+    "clientLogLevel": "error",
     "queryTimeout": 180,
     "maxMemory": 8192
   }
