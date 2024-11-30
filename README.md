@@ -15,9 +15,13 @@ $ npm install
 ```
 
 ## Usage
+First set-up the combinations
+```bash
+$ mkdir output
+$ npm run jbr -- generate-combinations
+```
 
 Generate the dataset and queries:
-
 ```bash
 $ npm run jbr -- prepare
 ```
@@ -25,7 +29,6 @@ $ npm run jbr -- prepare
 Generate the output directory structure used by Comunica to write r3-metric tracking output.
 
 ```bash
-$ mkdir output
 $ npm run prepare-output-directory
 ```
 
