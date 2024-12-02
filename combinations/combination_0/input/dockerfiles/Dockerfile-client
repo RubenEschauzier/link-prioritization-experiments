@@ -1,4 +1,4 @@
-FROM rubeneschauzier/query-sparql-link-traversal-solid-prioritization-algorithms:r3-metric9.0.0
+FROM rubeneschauzier/query-sparql-link-traversal-solid-prioritization-algorithms:r3-metric10.0.0
 
 ARG CONFIG_CLIENT
 ARG QUERY_TIMEOUT
