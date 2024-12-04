@@ -43,7 +43,7 @@
     "additionalBinds": ["/output:/tmp/r3-metric-output"],
     "clientPort": 3001,
     "clientLogLevel": "error",
-    "queryTimeout": 180,
+    "queryTimeout": 200,
     "maxMemory": 8192
   }
 }
