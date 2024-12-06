@@ -24,11 +24,11 @@
     "@type": "StaticDockerResourceConstraints",
     "cpu_percentage": 100
   },
-  "queryRunnerReplication": 5,
+  "queryRunnerReplication": 1,
   "queryRunnerWarmupRounds": 0,
   "queryRunnerRequestDelay": 2,
   "queryRunnerEndpointAvailabilityCheckTimeout": 1000,
-  "queryRunnerUrlParams": { "context": "{ \"lenient\": true }" },
+  "queryRunnerUrlParams": { },
   "queryTimeoutFallback": 240000,
   "hookSparqlEndpoint": {
     "@id": "urn:jbr:link-prioritization-timings:combination_14:hookSparqlEndpoint",
