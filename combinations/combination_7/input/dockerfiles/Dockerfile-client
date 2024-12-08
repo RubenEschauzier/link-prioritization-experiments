@@ -1,4 +1,4 @@
-FROM testdocker/query-sparql-link-traversal-solid:dev
+FROM rubeneschauzier/query-sparql-link-traversal-solid-prioritization-algorithms:r3-metric
 ARG CONFIG_CLIENT
 ARG QUERY_TIMEOUT
 ARG MAX_MEMORY
