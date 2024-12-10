@@ -1,4 +1,4 @@
-FROM rubeneschauzier/query-sparql-link-traversal-solid-prioritization-algorithms:timing4.0.0
+FROM rubeneschauzier/query-sparql-link-traversal-solid-prioritization-algorithms:timing-oracle
 
 ARG CONFIG_CLIENT
 ARG QUERY_TIMEOUT

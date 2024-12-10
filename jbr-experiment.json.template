@@ -40,7 +40,7 @@
     },
     "configClient": "input/config-client/config-solid-%FACTOR-type%.json",
     "contextClient": "input/context-client.json",
-    "additionalBinds": [],
+    "additionalBinds": ["/input/experiment-setup:/tmp/oracle-data-input"],
     "clientPort": 3001,
     "clientLogLevel": "error",
     "queryTimeout": 180,
