@@ -33,10 +33,10 @@ function createOutputStructure(combinationPaths, queryToOutputLocation){
           fs.writeFileSync(
             path.join(combinationPath, "base64ToDirectory.json"), 
             JSON.stringify(base64QueryToOutputDirectory)
-        );
-        
-            const toMake = path.join(combinationPath, queryOutputDir);
-            fs.mkdirSync(toMake, { recursive: true })       
+          );
+          fs.copyFileSync(path.join(__dirname, "oracleData.json"), path.join(combinationPath, "oracleData.json"))
+          const toMake = path.join(combinationPath, queryOutputDir);
+          fs.mkdirSync(toMake, { recursive: true })       
         }
     }
 }

@@ -1,5 +1,4 @@
-FROM rubeneschauzier/query-sparql-link-traversal-solid-prioritization-algorithms:r3-final
-
+FROM rubeneschauzier/query-sparql-link-traversal-solid-prioritization-algorithms:r3-metric-oracle
 ARG CONFIG_CLIENT
 ARG QUERY_TIMEOUT
 ARG MAX_MEMORY
@@ -16,4 +15,4 @@ ENV LOG_LEVEL=$LOG_LEVEL
 EXPOSE 3000
 
 ENTRYPOINT []
-CMD [ "/bin/sh", "-c", "node --max-old-space-size=$MAX_MEMORY ./bin/http.js -c /tmp/context.json -p 3000 -t $QUERY_TIMEOUT -l $LOG_LEVEL --idp void -i -w 1 --contextOverride" ]
+CMD [ "/bin/sh", "-c", "node --max-old-space-size=$MAX_MEMORY ./bin/http.js -c /tmp/context.json -p 3000 -t $QUERY_TIMEOUT -l $LOG_LEVEL --idp void -i -w 1" ]
