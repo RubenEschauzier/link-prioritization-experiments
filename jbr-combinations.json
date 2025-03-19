@@ -20,6 +20,7 @@
     {"type": "is-rcc-1", "combination": "combination_11"},
     {"type": "is-rcc-2", "combination": "combination_12"},
     {"type": "is-rel-1", "combination": "combination_13"},
-    {"type": "is-rel-2", "combination": "combination_14"}
+    {"type": "is-rel-2", "combination": "combination_14"},
+    {"type": "type-index", "combination": "combination_15"}
   ]
 }
