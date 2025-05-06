@@ -40,7 +40,7 @@
     },
     "configClient": "input/config-client/config-solid-%FACTOR-type%.json",
     "contextClient": "input/context-client.json",
-    "additionalBinds": ["/input/experiment-setup:/tmp/oracle-data-input"],
+    "additionalBinds": ["/input/experiment-setup:/tmp/r3-metric-output"],
     "clientPort": 3001,
     "clientLogLevel": "error",
     "queryTimeout": 180,
