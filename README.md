@@ -1,6 +1,7 @@
 # My Experiment
 
 This experiment was created with [jbr](https://github.com/rubensworks/jbr.js).
+This experiment measures the execution time of 17 prioritization algorithms described in the ISWC 2025 paper.
 (Sometimes you might need to add `127.0.0.1 solidbench-server` to your /etc/hosts file if the css server is not seen as up)
 
 ## Requirements
@@ -20,6 +21,7 @@ $ npm install
 Generate the dataset and queries:
 
 ```bash
+$ mkdir output
 $ npm run jbr -- prepare
 ```
 
