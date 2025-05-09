@@ -1,6 +1,9 @@
 # My Experiment
 
 This experiment was created with [jbr](https://github.com/rubensworks/jbr.js).
+This experiment tracks the required information to calculate the $R^{3}$ metric, measuring marginal link prioritization performance. For each combination it will create a directory structure in the `/output` dir.
+To analyse the results, you can use the [r3-metric-data-processor](https://github.com/RubenEschauzier/r3-metric-data-processor) by simply pasting the `/output` directory in the root of this experiment into the `r3-metric-data-processor` `/data` directory and following its README.
+(Sometimes you might need to add `127.0.0.1 solidbench-server` to your `/etc/hosts` file if the css server is not seen as up)
 
 ## Requirements
 
